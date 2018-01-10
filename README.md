@@ -1,3 +1,4 @@
+![Bitmaker](https://github.com/johncarlolopez/bitmaker-reference/blob/master/bitmakerlogo.svg)
 # 03 - Dictionary Part 1: RESTful Routes
 ### Wednesday, Jan 10th
 
