@@ -12,4 +12,7 @@ class EntriesController < ApplicationController
   def update
     redirect_to entry_url(params[:id])
   end
+  def destroy
+    redirect_to index_url
+  end
 end
