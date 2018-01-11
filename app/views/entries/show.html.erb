@@ -1,1 +1,9 @@
-<p>This page will display information about entry number <%= params[:id] %></p>
+<h1><%= @entry.word %></h1>
+
+<div class="">
+  <%= link_to('Back to Index', entries_path, :class => 'styledlink') %>
+  <%= link_to('Edit Entry', edit_entry_path(@entry), :class => 'styledlink') %>
+  <%= link_to('Delete Entry', entry_path(@entry), method: :delete, data: {confirm: "Are you sure you want to delete '#{@entry.word}' ?"}, :class => 'styledlink')%>
+</div>
+
+<%= render 'entry', entry: @entry %>

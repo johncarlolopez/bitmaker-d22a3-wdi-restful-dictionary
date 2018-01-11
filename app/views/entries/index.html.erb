@@ -1,1 +1,7 @@
-<p>This is the entries index page</p>
+<h1>Index</h1>
+<div class="">
+  <%= link_to('New Entry', new_entry_path, :class => 'styledlink') %>
+</div>
+<% @entries.each do |entry| %>
+  <%= render('entry', entry: entry)%>
+<% end %>

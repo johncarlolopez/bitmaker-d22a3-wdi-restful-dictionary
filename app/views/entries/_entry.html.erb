@@ -1,0 +1,6 @@
+<div class="entry">
+  <p><%= link_to(entry_path(entry)) { %>
+    <span class = 'bold'> <%= entry.word %>  </span>
+  <% } %>
+  (<span class = 'italic'><%= entry.language %></span>) - <%= entry.definition %></p>
+</div>

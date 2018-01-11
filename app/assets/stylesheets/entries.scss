@@ -1,3 +1,32 @@
 // Place all the styles related to the entries controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+div.entry {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 0.25em;
+  background-color: grey;
+  padding: 0.15em;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: inherit;
+  color: inherit;
+  font-weight: inherit;
+}
+
+.styledlink {
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 0.25em;
+  padding: 0.2em;
+  margin-bottom: 0.25em;
+}
